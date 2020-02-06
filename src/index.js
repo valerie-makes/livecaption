@@ -14,7 +14,7 @@ app.get("/caption/:text", async (req, res) => {
 
   en.textContent = text;
   de.textContent = result.text;
-  win.height = captions.scrollHeight + 16;
+  win.height = document.documentElement.offsetHeight;
 
   res.send();
 });
