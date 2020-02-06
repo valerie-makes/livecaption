@@ -1,0 +1,21 @@
+body {
+  background: black;
+  color: white;
+}
+
+#captions {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#captions p {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 4px 0;
+}
+
+#captions [lang="de"] {
+  color: yellow;
+  font-style: italic;
+}
